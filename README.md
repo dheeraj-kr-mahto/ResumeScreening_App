@@ -2,7 +2,6 @@
 
 A **Streamlit-based web application** for screening resumes against job descriptions using **Natural Language Processing (NLP)**. The app supports both single and multiple resume comparisons, extracts key entities, and provides a semantic similarity score using Sentence Transformers.
 
-🔗 **Live App**: [https://resume-screening-app-nlp.streamlit.app/](https://resume-screening-app-nlp.streamlit.app/)
 
 ---
 
@@ -15,14 +14,6 @@ A **Streamlit-based web application** for screening resumes against job descript
 * ✅ **Downloadable Results** — Export your comparison results as a CSV file.
 * ✅ **No Manual Feature Engineering** — Uses deep learning models for embeddings and semantic understanding.
 
----
-
-## 📸 Demo
-
-📺 [Watch the demo on Google Drive](https://drive.google.com/file/d/1MKztvt_b4OZliYTNkccUw_Xgrt8nKB1m/view?usp=sharing)
-
----
-
 ## 📚 Major Dependencies
 
 | Library                 | Purpose                                  |
@@ -33,7 +24,6 @@ A **Streamlit-based web application** for screening resumes against job descript
 | `PyPDF2`                | PDF text extraction                      |
 | `pandas`                | Data manipulation and exporting          |
 
-> ℹ️ **Note:** The app uses `all-MiniLM-L6-v2` from Hugging Face. An internet connection is required for the initial download.
 
 ---
 
@@ -120,28 +110,6 @@ resume-screening-app/
 
 ---
 
-## 🧪 requirements.txt
-
-```
-streamlit
-pandas
-PyPDF2
-sentence-transformers
-spacy==3.7.2
-numpy==1.24.3
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
-```
-
-> 💡 Run `python -m spacy download en_core_web_sm` if the app doesn't find the SpaCy model.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork the repo, create a branch, and submit a pull request.
-For major changes, please open an issue first to discuss what you'd like to change.
-
----
 
 ## 💡 Inspiration & Use Case
 
