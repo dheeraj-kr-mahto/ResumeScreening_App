@@ -1,0 +1,9 @@
+streamlit
+pandas
+PyPDF2
+sentence-transformers
+spacy==3.7.2
+scikit-learn
+nltk
+numpy<2.0
+
